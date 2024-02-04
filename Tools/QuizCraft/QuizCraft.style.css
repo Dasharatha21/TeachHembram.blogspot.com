@@ -1,0 +1,135 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Container for quiz questions */
+#quizQuestions {
+    margin-top: 20px;
+}
+
+/* Style for individual question containers */
+.question-container {
+    margin-bottom: 20px;
+}
+
+/* Input field styles */
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+/* Button styles */
+button {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Textarea styles for generated quiz */
+#generatedQuiz {
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+}
+
+/* Quiz container styles */
+.quiz-container {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Progress bar container */
+.progress-container {
+    margin-bottom: 20px;
+}
+
+/* Progress bar styles */
+.percentage {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    height: 20px;
+    background-color: #4CAF50;
+}
+
+/* Question and option styles */
+.question {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.option {
+    margin-bottom: 5px;
+}
+
+.explanation {
+    margin-top: 10px;
+    font-style: italic;
+    color: #777;
+}
+
+/* Reset button styles */
+#resetButton {
+    background-color: #ff9800;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#resetButton:hover {
+    background-color: #e68a00;
+}
+
+/* Report card styles */
+.report-card {
+    margin-top: 20px;
+}
+
+.report-card h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    body {
+        margin: 10px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    #generatedQuiz {
+        height: 100px;
+    }
+}
